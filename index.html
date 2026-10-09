@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1">
+
+  <title>
+    Виджеты Funeral Atlas для сайтов
+  </title>
+
+  <meta name="description"
+        content="Бесплатные встраиваемые виджеты Funeral Atlas: индекс рынка FAI-UFA и калькулятор похоронной сметы.">
+
+  <link rel="canonical"
+        href="https://funeral-atlas.art/widgets/">
+
+  <style>
+    *{box-sizing:border-box}
+
+    body{
+      margin:0;
+      background:#0c0f13;
+      color:#f4f5f7;
+      font-family:
+        system-ui,-apple-system,
+        BlinkMacSystemFont,"Segoe UI",
+        sans-serif;
+      line-height:1.5
+    }
+
+    main{
+      max-width:960px;
+      margin:auto;
+      padding:38px 18px 90px
+    }
+
+    h1{
+      font-size:
+        clamp(42px,8vw,76px);
+      line-height:.98
+    }
+
+    h2{
+      margin-top:52px
+    }
+
+    .lead{
+      max-width:740px;
+      color:#b8c0ca;
+      font-size:19px
+    }
+
+    .card{
+      border:1px solid #303640;
+      border-radius:18px;
+      background:#15191f;
+      padding:20px;
+      margin:18px 0
+    }
+
+    pre{
+      overflow:auto;
+      background:#090c10;
+      border-radius:12px;
+      padding:15px;
+      color:#dce2ea
+    }
+
+    .muted{
+      color:#919aa7
+    }
+
+.copy-row{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin:8px 0 24px;
+}
+.copy-btn{
+  appearance:none;
+  border:1px solid #2d3642;
+  background:#151a20;
+  color:#eef2f7;
+  border-radius:10px;
+  padding:9px 13px;
+  font:inherit;
+  cursor:pointer;
+}
+.copy-btn:active{
+  transform:translateY(1px);
+}
+.copy-status{
+  font-size:13px;
+  color:#919aa7;
+}
+
+.fallback{
+  margin:-12px 0 26px;
+}
+.fallback summary{
+  cursor:pointer;
+  color:#b5bdc9;
+  font-size:14px;
+}
+</style>
+
+
+  <link rel="alternate"
+    type="application/json"
+    title="Funeral Atlas Distribution Manifest"
+    href="https://funeral-atlas.art/distribution.json">
+</head>
+
+<body>
+<main>
+
+  <div class="muted">
+    FUNERAL ATLAS · EMBED
+  </div>
+
+  <h1>
+    Рынок Funeral Atlas<br>
+    на вашем сайте.
+  </h1>
+
+  <p class="lead">
+    Один script-тег.
+    Никаких библиотек и API-ключей.
+    Виджет обновляется вместе с данными Funeral Atlas.
+  </p>
+
+  <h2>FAI-UFA</h2>
+
+  <div class="card">
+    <script
+      src="/embed.js"
+      data-mode="index">
+    </script>
+  </div>
+
+  <pre id="embed-index">&lt;script async
+  src="https://funeral-atlas.art/embed.js"
+  data-mode="index"&gt;
+&lt;/script&gt;</pre>
+<div class="copy-row"><button class="copy-btn" data-copy-widget="embed-index">Скопировать код</button><span class="copy-status"></span></div>
+<details class="fallback">
+  <summary>Вариант без JavaScript · iframe</summary>
+  <pre id="iframe-index">&lt;iframe
+  src="https://funeral-atlas.art/embed/index.html?utm_source=embed&amp;utm_medium=iframe&amp;utm_campaign=index"
+  title="FAI-UFA · Price Index"
+  loading="lazy"
+  referrerpolicy="strict-origin-when-cross-origin"
+  style="width:100%;max-width:680px;height:300px;border:0;border-radius:16px"
+&gt;&lt;/iframe&gt;</pre>
+  <div class="copy-row">
+    <button class="copy-btn" data-copy-widget="iframe-index">Скопировать iframe</button>
+    <span class="copy-status"></span>
+  </div>
+</details>
+
+
+  <h2>Калькулятор сметы</h2>
+
+  <div class="card">
+    <script
+      src="/embed.js"
+      data-mode="calculator"
+      data-height="520">
+    </script>
+  </div>
+
+  <pre id="embed-calculator">&lt;script async
+  src="https://funeral-atlas.art/embed.js"
+  data-mode="calculator"
+  data-height="520"&gt;
+&lt;/script&gt;</pre>
+<div class="copy-row"><button class="copy-btn" data-copy-widget="embed-calculator">Скопировать код</button><span class="copy-status"></span></div>
+<details class="fallback">
+  <summary>Вариант без JavaScript · iframe</summary>
+  <pre id="iframe-calculator">&lt;iframe
+  src="https://funeral-atlas.art/embed/calculator.html?utm_source=embed&amp;utm_medium=iframe&amp;utm_campaign=calculator"
+  title="Калькулятор сметы"
+  loading="lazy"
+  referrerpolicy="strict-origin-when-cross-origin"
+  style="width:100%;max-width:680px;height:520px;border:0;border-radius:16px"
+&gt;&lt;/iframe&gt;</pre>
+  <div class="copy-row">
+    <button class="copy-btn" data-copy-widget="iframe-calculator">Скопировать iframe</button>
+    <span class="copy-status"></span>
+  </div>
+</details>
+
+
+  <h2>Market Counter</h2>
+
+  <div class="card">
+    <script
+      src="/embed.js"
+      data-mode="counter"
+      data-height="390">
+    </script>
+  </div>
+
+  <pre id="embed-counter">&lt;script async
+  src="https://funeral-atlas.art/embed.js"
+  data-mode="counter"
+  data-height="390"&gt;
+&lt;/script&gt;</pre>
+<div class="copy-row"><button class="copy-btn" data-copy-widget="embed-counter">Скопировать код</button><span class="copy-status"></span></div>
+<details class="fallback">
+  <summary>Вариант без JavaScript · iframe</summary>
+  <pre id="iframe-counter">&lt;iframe
+  src="https://funeral-atlas.art/embed/counter.html?utm_source=embed&amp;utm_medium=iframe&amp;utm_campaign=counter"
+  title="Market Counter"
+  loading="lazy"
+  referrerpolicy="strict-origin-when-cross-origin"
+  style="width:100%;max-width:680px;height:390px;border:0;border-radius:16px"
+&gt;&lt;/iframe&gt;</pre>
+  <div class="copy-row">
+    <button class="copy-btn" data-copy-widget="iframe-counter">Скопировать iframe</button>
+    <span class="copy-status"></span>
+  </div>
+</details>
+
+
+  <p class="muted">
+  Для каталогов, CMS и автоматических интеграций:
+  <a href="https://funeral-atlas.art/distribution.json">distribution.json</a>
+</p>
+
+<p class="muted">
+    Attribution Funeral Atlas входит в виджет.
+    Данные индекса обновляются автоматически.
+    Калькулятор выполняет локальный расчёт,
+    а полный рыночный анализ доступен в Funeral Cost.
+  </p>
+
+</main>
+
+<script>
+document.querySelectorAll('[data-copy-widget]').forEach((button) => {
+  button.addEventListener('click', async () => {
+    const id = button.dataset.copyWidget;
+    const source = document.getElementById(id);
+    const status = button.parentElement.querySelector('.copy-status');
+
+    if (!source) return;
+
+    try {
+      await navigator.clipboard.writeText(source.textContent.trim());
+      status.textContent = 'Скопировано ✓';
+      setTimeout(() => status.textContent = '', 1800);
+    } catch {
+      status.textContent = 'Не удалось скопировать';
+    }
+  });
+});
+</script>
+</body>
+
+</html>
