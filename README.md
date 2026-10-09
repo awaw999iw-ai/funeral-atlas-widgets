@@ -1,5 +1,11 @@
 # Funeral Atlas Widgets
 
-Embeddable widgets powered by Funeral Atlas.
+Embeddable funeral-market widgets powered by Funeral Atlas.
 
-https://funeral-atlas.art/widgets/
+## Quick start
+
+<script async src="https://cdn.jsdelivr.net/gh/awaw999iw-ai/funeral-atlas-widgets@v1.0.0/embed.js" data-mode="index"></script>
+
+Modes: index, counter, calculator
+
+Live demo: https://awaw999iw-ai.github.io/funeral-atlas-widgets/
