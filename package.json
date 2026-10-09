@@ -1,0 +1,23 @@
+{
+  "name": "funeral-atlas-widgets",
+  "version": "1.0.0",
+  "description": "Embeddable widgets powered by Funeral Atlas.",
+  "main": "embed.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awaw999iw-ai/funeral-atlas-widgets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/awaw999iw-ai/funeral-atlas-widgets/issues"
+  },
+  "homepage": "https://github.com/awaw999iw-ai/funeral-atlas-widgets#readme",
+  "files": [
+    "embed.js",
+    "distribution.json"
+  ]
+}
