@@ -1,0 +1,80 @@
+{
+  "schema": "funeral-atlas-distribution-v1",
+  "publisher": {
+    "name": "Funeral Atlas",
+    "url": "https://funeral-atlas.art"
+  },
+  "directory": "https://funeral-atlas.art/widgets/",
+  "widgets": [
+    {
+      "id": "index",
+      "name": "FAI-UFA · Price Index",
+      "script": {
+        "src": "https://funeral-atlas.art/embed.js",
+        "attributes": {
+          "data-mode": "index"
+        }
+      },
+      "iframe": {
+        "url": "https://funeral-atlas.art/embed/index.html?utm_source=embed&utm_medium=iframe&utm_campaign=index",
+        "width": "100%",
+        "max_width": 680,
+        "height": 300
+      },
+      "attribution": {
+        "required": true,
+        "text": "Данные и расчёт · Funeral Atlas",
+        "url": "https://funeral-atlas.art/?utm_source=embed&utm_medium=attribution&utm_campaign=index"
+      }
+    },
+    {
+      "id": "calculator",
+      "name": "Калькулятор сметы",
+      "script": {
+        "src": "https://funeral-atlas.art/embed.js",
+        "attributes": {
+          "data-mode": "calculator"
+        }
+      },
+      "iframe": {
+        "url": "https://funeral-atlas.art/embed/calculator.html?utm_source=embed&utm_medium=iframe&utm_campaign=calculator",
+        "width": "100%",
+        "max_width": 680,
+        "height": 520
+      },
+      "attribution": {
+        "required": true,
+        "text": "Данные и расчёт · Funeral Atlas",
+        "url": "https://funeral-atlas.art/?utm_source=embed&utm_medium=attribution&utm_campaign=calculator"
+      }
+    },
+    {
+      "id": "counter",
+      "name": "Market Counter",
+      "script": {
+        "src": "https://funeral-atlas.art/embed.js",
+        "attributes": {
+          "data-mode": "counter"
+        }
+      },
+      "iframe": {
+        "url": "https://funeral-atlas.art/embed/counter.html?utm_source=embed&utm_medium=iframe&utm_campaign=counter",
+        "width": "100%",
+        "max_width": 680,
+        "height": 390
+      },
+      "attribution": {
+        "required": true,
+        "text": "Данные и расчёт · Funeral Atlas",
+        "url": "https://funeral-atlas.art/?utm_source=embed&utm_medium=attribution&utm_campaign=counter"
+      }
+    }
+  ],
+  "feeds": [
+    {
+      "type": "jsonfeed",
+      "title": "Funeral Atlas Market Change Feed",
+      "url": "https://funeral-atlas.art/market-feed.json"
+    }
+  ]
+}
